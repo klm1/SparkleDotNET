@@ -6,8 +6,6 @@ using System.Windows.Controls;
 using System.Windows.Media;
 using System.Windows;
 using System.Windows.Threading;
-using KNFoundation;
-using KNFoundation.KNKVC;
 
 namespace SparkleDotNET {
     class SUUpdateAlertWindowViewController : KNViewController, KNKVOObserver {

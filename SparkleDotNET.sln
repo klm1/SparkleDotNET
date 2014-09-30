@@ -1,11 +1,12 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SparkleDotNET", "SparkleDotNET\SparkleDotNET.csproj", "{5352219A-A076-449A-8319-6C29E4C21153}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SparkleDotNET for 3.5", "SparkleDotNET for 3.5\SparkleDotNET for 3.5.csproj", "{FAAD834C-8697-11E0-A58A-6DD74824019B}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SparkleDotNET Tools", "SparkleDotNET Test Application\SparkleDotNET Tools.csproj", "{1906DC8F-BFDE-4302-916E-B8D536A5DB86}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestApp", "TestApp\TestApp.csproj", "{63412023-C3E8-413D-A852-4D1EC9799F89}"
+	ProjectSection(ProjectDependencies) = postProject
+		{5352219A-A076-449A-8319-6C29E4C21153} = {5352219A-A076-449A-8319-6C29E4C21153}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -37,6 +38,16 @@ Global
 		{1906DC8F-BFDE-4302-916E-B8D536A5DB86}.Release|Mixed Platforms.Build.0 = Release|x86
 		{1906DC8F-BFDE-4302-916E-B8D536A5DB86}.Release|x86.ActiveCfg = Release|x86
 		{1906DC8F-BFDE-4302-916E-B8D536A5DB86}.Release|x86.Build.0 = Release|x86
+		{63412023-C3E8-413D-A852-4D1EC9799F89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63412023-C3E8-413D-A852-4D1EC9799F89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63412023-C3E8-413D-A852-4D1EC9799F89}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{63412023-C3E8-413D-A852-4D1EC9799F89}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{63412023-C3E8-413D-A852-4D1EC9799F89}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{63412023-C3E8-413D-A852-4D1EC9799F89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63412023-C3E8-413D-A852-4D1EC9799F89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63412023-C3E8-413D-A852-4D1EC9799F89}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{63412023-C3E8-413D-A852-4D1EC9799F89}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{63412023-C3E8-413D-A852-4D1EC9799F89}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

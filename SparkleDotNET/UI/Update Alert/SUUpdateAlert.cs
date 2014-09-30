@@ -6,8 +6,6 @@ using System.ComponentModel;
 using System.Windows;
 using System.Net;
 using System.Runtime.InteropServices;
-using KNFoundation;
-using KNFoundation.KNKVC;
 
 namespace SparkleDotNET {
 

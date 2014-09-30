@@ -33,14 +33,13 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="KNFoundation">
-      <HintPath>..\KNFoundation.dll</HintPath>
-    </Reference>
     <Reference Include="PresentationCore" />
     <Reference Include="PresentationFramework" />
     <Reference Include="System" />
+    <Reference Include="System.Activities" />
     <Reference Include="System.Core" />
     <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xaml" />
     <Reference Include="System.Management" />
     <Reference Include="System.Xml.Linq" />
@@ -53,6 +52,34 @@
     <Compile Include="Helpers.cs" />
     <Compile Include="Installation\SUExecutableInstaller.cs" />
     <Compile Include="Installation\SUMSIInstaller.cs" />
+    <Compile Include="KNFoundation\Extensions\KNBitmapExtensions.cs" />
+    <Compile Include="KNFoundation\IconExtractor.cs" />
+    <Compile Include="KNFoundation\KNBundle.cs" />
+    <Compile Include="KNFoundation\KNKVC\Bindings\KNBinding.cs" />
+    <Compile Include="KNFoundation\KNKVC\KVC\KNArrayKVC.cs" />
+    <Compile Include="KNFoundation\KNKVC\KVC\KNDependencyObjectKVC.cs" />
+    <Compile Include="KNFoundation\KNKVC\KVC\KNDictionaryKVC.cs" />
+    <Compile Include="KNFoundation\KNKVC\KVC\KNKVCGettable.cs" />
+    <Compile Include="KNFoundation\KNKVC\KVC\KNKVCMethodInvokeFailedException.cs" />
+    <Compile Include="KNFoundation\KNKVC\KVC\KNKVCSettable.cs" />
+    <Compile Include="KNFoundation\KNKVC\KVC\KNUndefinedKeyException.cs" />
+    <Compile Include="KNFoundation\KNKVC\KVO\Helpers\CheckboxKVOHelper.cs" />
+    <Compile Include="KNFoundation\KNKVC\KVO\Helpers\NotifyPropertyChangedKVOHelper.cs" />
+    <Compile Include="KNFoundation\KNKVC\KVO\KNKVOConstants.cs" />
+    <Compile Include="KNFoundation\KNKVC\KVO\KNKVOCore.cs" />
+    <Compile Include="KNFoundation\KNKVC\KVO\KNKVOHelper.cs" />
+    <Compile Include="KNFoundation\KNKVC\KVO\KNKVOKeyPathObserver.cs" />
+    <Compile Include="KNFoundation\KNKVC\KVO\KNKVOObservable.cs" />
+    <Compile Include="KNFoundation\KNKVC\KVO\KNKVOObservationChangeTracker.cs" />
+    <Compile Include="KNFoundation\KNKVC\KVO\KNKVOObservationInfo.cs" />
+    <Compile Include="KNFoundation\KNKVC\KVO\KNKVOObserver.cs" />
+    <Compile Include="KNFoundation\KNNotification.cs" />
+    <Compile Include="KNFoundation\KNNotificationCentre.cs" />
+    <Compile Include="KNFoundation\KNPropertyListSerialization.cs" />
+    <Compile Include="KNFoundation\KNStringExtensions.cs" />
+    <Compile Include="KNFoundation\KNUserDefaults.cs" />
+    <Compile Include="KNFoundation\KNViewController.cs" />
+    <Compile Include="KNFoundation\KNWindowController.cs" />
     <Compile Include="Localization\SULocalizedStrings.cs" />
     <Compile Include="NativeMethods.cs" />
     <Compile Include="SharpZLib\BZip2\BZip2.cs" />

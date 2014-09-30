@@ -5,8 +5,6 @@ using System.Text;
 using System.Net;
 using System.IO;
 using System.ComponentModel;
-using KNFoundation.KNKVC;
-using SparkleDotNET;
 
 namespace SparkleDotNET {
     class SUBasicUpdateDriver : SUUpdateDriver, SUAppcastDelegate, SUUnarchiverDelegate {

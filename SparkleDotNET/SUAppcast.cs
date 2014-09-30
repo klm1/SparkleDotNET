@@ -6,7 +6,6 @@ using System.Collections;
 using System.Net;
 using System.Xml;
 using System.Globalization;
-using KNFoundation.KNKVC;
 
 namespace SparkleDotNET {
 

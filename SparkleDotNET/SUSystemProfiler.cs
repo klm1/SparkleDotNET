@@ -7,8 +7,6 @@ using System.Text;
 using System.ComponentModel;
 using System.Reflection;
 using Microsoft.Win32;
-using KNFoundation;
-using KNFoundation.KNKVC;
 
 namespace SparkleDotNET {
     class SUSystemProfiler {

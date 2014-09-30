@@ -5,8 +5,6 @@ using System.Text;
 using System.IO;
 using System.Drawing;
 using System.Windows.Media.Imaging;
-using KNFoundation;
-using KNFoundation.KNKVC;
 
 namespace SparkleDotNET {
     public class SUHost {

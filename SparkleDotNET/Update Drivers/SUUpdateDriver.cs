@@ -2,8 +2,6 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using KNFoundation.KNKVC;
-using KNFoundation;
 
 namespace SparkleDotNET {
     abstract class SUUpdateDriver {

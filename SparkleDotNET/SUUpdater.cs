@@ -7,8 +7,6 @@ using System.Windows.Threading;
 using System.Web;
 using System.IO;
 using System.Reflection;
-using KNFoundation.KNKVC;
-using KNFoundation;
 
 namespace SparkleDotNET {
 
@@ -297,6 +295,12 @@ namespace SparkleDotNET {
 
             if (timeSinceLastUpdate < updateCheckInterval) {
                 delayUntilCheck = updateCheckInterval - timeSinceLastUpdate;
+            }
+
+            // Handle delay that will overflow value
+            if (delayUntilCheck >= Int32.MaxValue) {
+                delayUntilCheck = updateCheckInterval;
+                host.LastUpdateCheckDate = DateTime.Now;
             }
 
             if (delayUntilCheck <= 0) {
